@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7b5b2"
+    tools:context=".RateActivity">
+
+    <RadioGroup
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="73dp"
+        android:layout_alignLeft="@+id/textView9">
+
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Poor, Needs Improvement"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Good, Keep Going"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Excellent"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="21dp"
+        android:text="How do you rate our App?"
+        android:textSize="25dp"
+        tools:ignore="UnknownId"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="208dp"
+        android:text="Review"
+        android:textSize="25dp"
+        android:layout_alignLeft="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginBottom="239dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tell us What You Think"
+        android:layout_alignLeft="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginStart="85dp"
+        android:text="Submit"
+        android:onClick="submit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp" />
+</RelativeLayout>

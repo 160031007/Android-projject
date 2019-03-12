@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gowtham.image">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".secondaryeducation" />
+        <activity android:name=".IntermathsActivity" />
+        <activity android:name=".BuynowActivity" />
+        <activity android:name=".InterphysicsActivity" />
+        <activity android:name=".InterchemistryActivity" />
+        <activity android:name=".InterzoologyActivity" />
+        <activity android:name=".InterbotanyActivity" />
+        <activity android:name=".UgActivity" />
+        <activity android:name=".CpActivity" />
+        <activity android:name=".JavaActivity" />
+        <activity android:name=".DatabaseActivity" />
+        <activity android:name=".OsActivity" />
+        <activity android:name=".CoaActivity" />
+        <activity android:name=".PgActivity" />
+        <activity android:name=".GreActivity" />
+        <activity android:name=".GateActivity" />
+        <activity android:name=".GmatActivity" />
+        <activity android:name=".IeltsActivity" />
+        <activity android:name=".TofelActivity" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".ContactusActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignupActivity"></activity>
+    </application>
+
+</manifest>

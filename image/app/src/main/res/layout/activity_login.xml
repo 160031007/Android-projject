@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7b5b2"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="192dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="234dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="Log in"
+        android:onClick="home"
+        android:background="#63bfd8"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="New user? Sign Up"
+        android:textSize="15dp"
+        android:onClick="signup"/>
+
+</RelativeLayout>
